@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+                <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
+                <li class="navbar-item"><a href="#services" class="navbar-link">Services</a></li>
+                <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content-section">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover a world of opportunities with our innovative solutions. Scroll down to learn more about who we are and what we do.</p>
+        </section>
+
+        <section id="about" class="content-section">
+            <h1>About Us</h1>
+            <p>We are a team of passionate professionals dedicated to delivering high-quality services to our clients. With years of experience and a commitment to innovation, we aim to exceed expectations in everything we do.</p>
+            <ul>
+                <li><strong>Our Mission:</strong> To empower businesses and individuals with cutting-edge solutions.</li>
+                <li><strong>Our Vision:</strong> To be a global leader in our industry through excellence and innovation.</li>
+                <li><strong>Core Values:</strong> Integrity, Innovation, and Customer Satisfaction.</li>
+            </ul>
+        </section>
+
+        <section id="services" class="content-section">
+            <h1>Our Services</h1>
+            <p>We offer a wide range of services designed to meet the needs of our diverse clientele. Explore what we have to offer:</p>
+            <div class="services-list">
+                <div class="service-item">
+                    <h2>Web Development</h2>
+                    <p>Crafting modern, responsive websites that deliver a seamless user experience.</p>
+                </div>
+                <div class="service-item">
+                    <h2>Mobile App Development</h2>
+                    <p>Creating user-friendly mobile applications for Android and iOS platforms.</p>
+                </div>
+                <div class="service-item">
+                    <h2>Digital Marketing</h2>
+                    <p>Helping you reach your target audience through tailored marketing strategies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you! Whether you have a question, feedback, or a project in mind, feel free to get in touch:</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
